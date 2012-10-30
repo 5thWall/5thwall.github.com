@@ -1,0 +1,10 @@
+---
+layout: post
+title: "MyRailMo"
+date: 2012-10-30 17:28
+comments: true
+categories:
+---
+
+My roommate is an aspiring author, and so once again he's partisipating in
+[NaNoWriMo](http://nanowrimo.org).
