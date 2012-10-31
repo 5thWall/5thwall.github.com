@@ -6,7 +6,7 @@ comments: true
 categories: rails code MyRaiMo NaNoWriMo project
 ---
 
-My roommate is an aspiring author, and so once again he's participating in
+My roommate is an aspiring author, and so he's participating in
 [NaNoWriMo][nano] this year. I've never been very good at NaNoWriMo, and I
 wasn't planning on participating this year. On the other hand, have been meaning
 to get started on another project, and I have an idea left over from my
