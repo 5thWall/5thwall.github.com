@@ -3,7 +3,7 @@ layout: post
 title: "MyRaiMo"
 date: 2012-10-30 17:28
 comments: true
-categories: rails, code, MyRaiMo, NaNoWriMo, project
+categories: rails code MyRaiMo NaNoWriMo project
 ---
 
 My roommate is an aspiring author, and so once again he's participating in
