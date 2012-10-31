@@ -1,10 +1,33 @@
 ---
 layout: post
-title: "MyRailMo"
+title: "MyRaiMo"
 date: 2012-10-30 17:28
 comments: true
-categories:
+categories: rails, code, MyRaiMo, NaNoWriMo, project
 ---
 
-My roommate is an aspiring author, and so once again he's partisipating in
-[NaNoWriMo](http://nanowrimo.org).
+My roommate is an aspiring author, and so once again he's participating in
+[NaNoWriMo][nano] this year. I've never been very good at NaNoWriMo, and I
+wasn't planning on participating this year. On the other hand, have been meaning
+to get started on another project, and I have an idea left over from my
+[RailsRumble][rr] brainstorming session. So this year I've decided I'm going to
+do my own personal MyRaiMo.
+
+NaNoWriMo is a fairly rules light affair, and so I'm going to keep it that way
+for me as well. I'm going to complete as much as I can between November 1st and
+30th, but before that (so, tomorrow) I'm only allowing myself to:
+
+ 1. Generate a new rails project (because honestly, the computers going to do
+    that for me anyway)
+ 2. Edit the readme
+ 3. Make issues in Github
+
+Once MyRaiMo starts I'm going to try to keep it as close to the RailsRumble
+rules as possible. Which means I'll be making or finding my own graphics and
+doing all design by myself. Design hasn't really ever been one of my strong
+suits, though I don't think I'm terrible at it.
+
+I think this will be an all around interesting experience.
+
+[nano]: http://nanowrimo.org "National Novel Writing Month"
+[rr]: http://railsrumble.com "48-hour Rails Code competition"
