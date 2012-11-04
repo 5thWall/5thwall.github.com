@@ -1,21 +1,11 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
-
-div.licence {
-  &> a {
-    float: left;
-    margin-top: 5px;
-  }
-
-  div {
-    float: left;
-    width: 300px;
-    font-size: smaller;
-    line-height: 1.5em;
-    margin-left: 10px;
-  }
+html {
+    background: $page-bg;
 }
-
-span.credit {
-  float: right;
+article {
+    h1, h2, h3, h4, h5, h6
+    {
+        color : $sol_yellow;
+    }
 }
