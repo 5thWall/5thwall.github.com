@@ -22,14 +22,14 @@ the code from [Bill Cava][bc]'s [Ektron Content Types Webinar][ectw].
 
 The two smartform limitations had to do with specific field limitations, first
 is that PageBuilder pages can't be selected for a content resource. Kind of lame
-but not really suprizing considering the normal mode for displaying a smartform
+but not really surprising considering the normal mode for displaying a smartform
 was designed with XSLT in mind. Even though PageBuilder pages are represented as
 XML internally, there's not really a way to display them with XSLT, and the
 Ektron ContentBlock control would choke on them.
 
 The other limitation had to do with date fields which can hold time information
 but the smartform can't handle time. So, if you create a custom UI to insert
-dates, be aware that anyone saving that smartform in the workarea will ovewrite
+dates, be aware that anyone saving that smartform in the workarea will overwrite
 the time to 12AM.
 
 [kma]: http://http://kmac23va.tumblr.com/ "The blog of Ken McAndrew"
@@ -44,7 +44,7 @@ very good at last years Synergy. This year's talk contained a good amount of the
 same information which is a little disappointing but not entirely unexpected.
 Bill pushed using smartforms, which is what we've already found to be very good
 advice in general. Some things that were new for this year (as far as my
-recolection goes anyway) included a few suggestions about when to use various
+recollection goes anyway) included a few suggestions about when to use various
 features and APIs.
 
 ### SmartForm Fields vs MetaData
@@ -54,10 +54,10 @@ Just like last year Bill really pushed using SmartForms for most content. At
 information about when to use a SmartForm field vs. when to put information into
 the Content MetaData. Just as a general rule of thumb, use a SmartForm field
 when the information is going to be displayed on the page. Metadata would be a
-better choice for relating in other peices of content. This is advice we're
+better choice for relating in other pieces of content. This is advice we're
 following at work, so it's nice to see that we're on the right track.
 
-While talking about modling data in SmartForms, he mentioned the book
+While talking about modeling data in SmartForms, he mentioned the book
 [Content Strategy for Mobile][csfm] as being a good resource for thinking about
 how to break down content, and that it was good for more than just mobile.
 
@@ -74,15 +74,15 @@ version, of content.
 ### Three-Tier Architecture & Templated Controls
 
 Coming up soon is an Ektron MinSite install that creates a basic Web Application
-project using a multi-tier arcitecture. Starting out it should just be avalible
-through the [Synergy site][syn], but will later be one of the default
-instalation options.
+project using a multi-tier architecture. Starting out it should just be
+available through the [Synergy site][syn], but will later be one of the default
+installation options.
 
 Related to that, the old Ektron server controls won't work with a 3-tier
-soultion, but v8.6 introduced templated Ektron controls which now do. As an
-added benifit, developers can now specify the output of the control just like
+solution, but v8.6 introduced templated Ektron controls which now do. As an
+added benefit, developers can now specify the output of the control just like
 any other templated control (e.g. ListView, Repeater).
 
 [nau]: http://nau.edu/ "Northern Arizona University"
 [csfm]: http://www.abookapart.com/products/content-strategy-for-mobile "A Book Apart - Content Strategy for Mobile"
-[syn]: http://synergy.ektron.com "Ektron Synergy confrence"
+[syn]: http://synergy.ektron.com "Ektron Synergy Conference"
