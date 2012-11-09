@@ -40,97 +40,49 @@ the time to 12AM.
 ## Ektron Best Practices
 
 Next we have the Ektron Best Practices talk by [Bill Cava][bc]. This talk was
-very good at last years Synergy though this year contained a good amount of the
-same information.
+very good at last years Synergy. This year's talk contained a good amount of the
+same information which is a little disappointing but not entirely unexpected.
+Bill pushed using smartforms, which is what we've already found to be very good
+advice in general. Some things that were new for this year (as far as my
+recolection goes anyway) included a few suggestions about when to use various
+features and APIs.
 
-### Software Architecture
+### SmartForm Fields vs MetaData
 
-This was mostly the same as last year
+Just like last year Bill really pushed using SmartForms for most content. At
+[NAU][nau] we've very much found that to be the case. This year he added some
+information about when to use a SmartForm field vs. when to put information into
+the Content MetaData. Just as a general rule of thumb, use a SmartForm field
+when the information is going to be displayed on the page. Metadata would be a
+better choice for relating in other peices of content. This is advice we're
+following at work, so it's nice to see that we're on the right track.
 
-### Object Types
+While talking about modling data in SmartForms, he mentioned the book
+[Content Strategy for Mobile][csfm] as being a good resource for thinking about
+how to break down content, and that it was good for more than just mobile.
 
- * Content Types
-  - Smart Forms
-    Why aren't you using smartforms? You should always use smartforms. We use
-    smartforms for everything.
-  - HTML Content
-    Word content?
-  - Binary
-  - Page Builder
- * Content Metadata
- * Folders
- * Taxonomies
- * Taxonomy Metadata
- * Collections
- * Menus
- * Users
- * User Properties
- * Groups
+### ContentManager vs SeachManager
 
-Smartform Vs Metadata
-Rule of thumb, smartform field when it will be displayed, metadata if it's
-more relational (We're doing it right)
-SF:
-First class content items
-Stored as XML
-Fields are usually displayed
+Bill also went over the differences between the ContentManager and the
+SearchManager in the new Ektron Framework API. This seemed to be mostly stuff
+one might guess. The ContentManager has some simple filters that are limited to
+the properties of ContentData, but has up-to-date and accurate information
+coming directly from the database. SearchManager, on the other hand, has a more
+expressive way of quering for data, but might not contain the latest, or latest
+version, of content.
 
-MetaData:
-Not a centent object
-Associated to content objects to form relationships between content
-typicaly not displayed
+### Three-Tier Architecture & Templated Controls
 
-Webinar on mapping smartforms to Plain c# objects
+Coming up soon is an Ektron MinSite install that creates a basic Web Application
+project using a multi-tier arcitecture. Starting out it should just be avalible
+through the [Synergy site][syn], but will later be one of the default
+instalation options.
 
-Content modling
-Book: Content Strategy for mobile (helpfull for more than mobile)
+Related to that, the old Ektron server controls won't work with a 3-tier
+soultion, but v8.6 introduced templated Ektron controls which now do. As an
+added benifit, developers can now specify the output of the control just like
+any other templated control (e.g. ListView, Repeater).
 
-### Development Tooling
-
-APIS
-Why are we not using the 8.5 Framework API
-Managers for CRUD operations
-Data Classes
-Criteria
-
-Content manager vs search manager
-
-cm
-Returns ContentData
-Queries against Source of Truth (db)
-Quiries against contentdata props
-express simple critiria using filters
-
-sm
-Returns SearchResult
-Search Index is not instantly updated
-Queries against wide set of properties
-Express Complex criteria using expression trees
-
-#### templated server controls
-Have no presentation logic baked into them.
-
-Legacy Server controls are rubbish
-
-Templated server controls give full control over markup
-
-#### Page Builder
-
-Don't overuse pagebuilder
-
-### Development Tips
-
-Create a layered application
-
-Build a layer on top of ektron, only access ektron through business access layer.
-*Beware of baklava code* Separate component responsibilities. Check out webinars.
-
-When upgrading tho only thing that changes is the data layer.
-
-Starter site with layers included.
-
-Create an application config file.
-
-Use smartforms for config values.
-
-### Resources
+[nau]: http://nau.edu/ "Northern Arizona University"
+[csfm]: http://www.abookapart.com/products/content-strategy-for-mobile "A Book Apart - Content Strategy for Mobile"
+[syn]: http://synergy.ektron.com "Ektron Synergy confrence"
