@@ -32,7 +32,7 @@ but the smartform can't handle time. So, if you create a custom UI to insert
 dates, be aware that anyone saving that smartform in the workarea will overwrite
 the time to 12AM.
 
-[kma]: http://http://kmac23va.tumblr.com/ "The blog of Ken McAndrew"
+[kma]: http://kmac23va.tumblr.com/ "The blog of Ken McAndrew"
 [eect]: http://kmac23va.tumblr.com/post/17579016242/enhancing-ektron-content-types "Enhancing Ektron Content Types"
 [bc]: http://twitter.com/billcava "Bill Cava, Ektron Chief Evangelist"
 [ectw]: http://www.ektron.com/Resources/Webinars/Ektron-Content-Types/ "Ektron Content Types Webinar"
