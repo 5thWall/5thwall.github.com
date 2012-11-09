@@ -69,3 +69,6 @@ FAST Search >100mil
 needs dedicated search, can't load-balance
 
 Setup stuff, hardware, ports, admin, install search server, configure search server, connect ektron to searchserver, can decide what things the search server will crawl (can leave out forums, products, etc)
+
+search views as the builtin user, search is going to see the entire site
+search may see menu items, can hide stuff from the builtin user programatically (seems like a hack, but I'm not afraid of those) [ChrisJocquesJWU]
