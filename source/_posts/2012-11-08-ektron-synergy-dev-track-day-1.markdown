@@ -3,7 +3,7 @@ layout: post
 title: "Ektron Synergy Dev Track - Day 1"
 date: 2012-11-08 11:19
 comments: true
-categories: Ektron "Ektron Synergy" C#
+categories: Ektron EktronSynergy C#
 ---
 
 I'm attending [Ektron Synergy][eksy] this week for work and I've decided to
