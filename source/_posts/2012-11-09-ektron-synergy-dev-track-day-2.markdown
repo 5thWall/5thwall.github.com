@@ -9,7 +9,7 @@ published: false
 
 Continuing into day two of the Ektron Synergy developer track.
 
-## Flight of the Pheonix
+## Flight of the Phoenix
 
 ## Making the 8.6 Editor Your Own
 
@@ -27,7 +27,7 @@ console.log("Aloha World")
 
 How he chose Aloha, looking at features, compatibility, ux, speed, and extensibility.
 
-Aloha is more of a true WYSIWYG editor. [Rangy selection library][rsl].
+Aloha is more of a true WYSIWYG editor. [Rangy selection libraryy][rsl].
 
 making it your own
 
@@ -62,7 +62,7 @@ after phx plugins will be moved out of workarea
 ## Search in 8.6
 
 The Ektron Search in 8.6 comes in 3 flavors
-Serch Server Express <10 mil
+Search Server Express <10 mil
 Search Server >10mil
 FAST Search >100mil
 
