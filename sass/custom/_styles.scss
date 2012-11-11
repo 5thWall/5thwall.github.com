@@ -9,3 +9,22 @@ article {
         color : $sol_yellow;
     }
 }
+
+div.licence {
+ &> a {
+   float: left;
+   margin-top: 5px;
+ }
+
+ div {
+   float: left;
+   width: 300px;
+   font-size: smaller;
+   line-height: 1.5em;
+   margin-left: 10px;
+ }
+}
+
+span.credit {
+  float: right;
+}
