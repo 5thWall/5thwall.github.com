@@ -16,14 +16,25 @@
     </head>
     <body>
       <header>
-        <h1>Breaking the 5th Wall</h1>
+        <h1>Breaking the 5<sup>th</sup> Wall</h1>
       </header>
-      <div class="body">
-        <main>
+      <section class="content">
+        <article>
           {{ content }}
-        </main>
-        <nav></nav>
-      </div>
+        </article>
+        <nav>
+          <h1>Tags</h1>
+          <ul>
+            {% for tag in site.tags %}
+            <li>
+              <a href="/#{{ tag | first | slugize }}">
+                {{ tag | first }}
+              <a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </section>
       <footer>Copyright 2013 Andrew Arminio</footer>
     </body>
 </html>

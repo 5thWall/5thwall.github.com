@@ -4,16 +4,30 @@ body {
   flex-direction: column;
 }
 
-div.body {
+header {
+  padding: 1.5em;
+}
+
+section.content {
   display: flex;
   flex: 1;
+  padding: 1.5em;
 }
 
-div.body main {
+section.content article {
   flex: 1;
+  padding: 0 1.5em;
 }
 
-div.body nav {
+section.content nav {
   flex: 0 0 12em;
-  order: -1;
+  background: #eee;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 1.5em;
 }
