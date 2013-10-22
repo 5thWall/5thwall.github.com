@@ -6,6 +6,10 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Fonts -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700|Archivo+Black' rel='stylesheet' type='text/css'>
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
@@ -18,23 +22,20 @@
       <header>
         <h1>Breaking the 5<sup>th</sup> Wall</h1>
       </header>
-      <section class="content">
-        <article>
+      <div id="main">
+        <section id="content">
           {{ content }}
-        </article>
+        </section>
         <nav>
-          <h1>Tags</h1>
-          <ul>
-            {% for tag in site.tags %}
-            <li>
-              <a href="/#{{ tag | first | slugize }}">
-                {{ tag | first }}
-              <a>
-            </li>
-            {% endfor %}
+          <h1>Contact</h1>
+          <ul id="contact">
+            <li><a href="mailto:5thWall@gmail.com"><i class="icon-envelope icon-2x"></i></a></li>
+            <li><a href="http://twitter.com/5thwall"><i class="icon-twitter icon-2x"></i></a></li>
+            <li><a href="http://github.com/5thwall"><i class="icon-github icon-2x"></i></a></li>
+            <li><a href="/Atom.xml"><i class="icon-rss icon-2x"></i></a></li>
           </ul>
         </nav>
-      </section>
+      </div>
       <footer>Copyright 2013 Andrew Arminio</footer>
     </body>
 </html>

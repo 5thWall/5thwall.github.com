@@ -3,11 +3,17 @@ layout: default
 title: Breaking The 5th Wall
 ---
 
-<div id="home">
+<article>
+  <h1><a href="{{ site.posts.first.link }}">{{ site.posts.first.title }}</a></h1>
+  {{ site.posts.first.excerpt }}
+  <a href="{{ site.posts.first.link }}">Read More...</a>
+</article>
+
+<artile>
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>
+</article>
