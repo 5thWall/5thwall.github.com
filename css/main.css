@@ -9,12 +9,26 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo-Black', sans-serif;
 }
 
-/*a {
-  color:
-}*/
+a:link, a:visited {
+  text-decoration: none;
+  color: #949494;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover {
+  text-decoration: none;
+  color: #000;
+}
 
 header {
   padding: 1.5em;
+}
+
+header h1 {
+  font-size: 50px;
 }
 
 div#main {
@@ -30,6 +44,10 @@ section#content {
 
 section#content article:first-child h1 {
   margin-top: 0;
+}
+
+a.readmore:link {
+  font-family: 'Archivo-Black', sans-serif;
 }
 
 div#main nav {
