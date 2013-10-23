@@ -1,5 +1,5 @@
 ---
-template: note
+layout: note
 ---
 
 New Rules for Javascript

@@ -1,5 +1,5 @@
 ---
-template: note
+layout: note
 ---
 
 Web Components Revolution

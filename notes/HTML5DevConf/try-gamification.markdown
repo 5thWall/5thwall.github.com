@@ -1,5 +1,5 @@
 ---
-template: note
+layout: note
 ---
 
 Need a Better Customer? Try Gamification!
