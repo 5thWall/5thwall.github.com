@@ -24,7 +24,9 @@ You'll be rewarded with simpler and possibly faster code
 
 ## Stop using anonymous functions
 
-    function foo() { }
+``` javascript
+function foo() { }
+```
     
 Bind gives us currying and closures. Named function expressions are always preferable. Also, stop bloating function closures.
 

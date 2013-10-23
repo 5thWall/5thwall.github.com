@@ -26,13 +26,15 @@ We can do better. Just use the thing. Web Components!
 
 Web components use the same tools that the browser makers use.
 
-    <chart-pie></chart-pie>
-    
-    <mark-down>
-      ## O hai!
-      ### how _you_ doin?
-      [Link me!](foo.com)
-    </markdown>
+``` html
+<chart-pie></chart-pie>
+
+<mark-down>
+  ## O hai!
+  ### how _you_ doin?
+  [Link me!](foo.com)
+</markdown>
+```
     
 What are Web Components?
 ---------------------------------
@@ -45,10 +47,11 @@ What are Web Components?
 ### Templates
 Inner chunks of DOM that we can re-use throuought the page.
 
-    <template id="my-widget">
-      {{ content }}
-    </template>
-
+``` html
+<template id="my-widget">
+  {{ content }}
+</template>
+```
 
 #### Gotchas
 No built-in data interpolation `{{ }}` don't do anything yet
@@ -61,7 +64,7 @@ Huge topic
 
 Provides Style and markup encapsulation
 
-Same technology used by browser makers to implement <video> etc.
+Same technology used by browser makers to implement `<video>` etc.
 
 Shadow Host : node contains all our shadow dome , shadow root : first node, shadow nodes, shadow tree, shadow boundary : container
 
@@ -75,8 +78,10 @@ Can put styles inside the `<template>`
 
 You can poke holes in the shadow boundary using `part`
 
-`part="foo"`
-`.widget::part("foo") { color: red; }`
+``` javascript
+part="foo"
+.widget::part("foo") { color: red; }
+```
 
 Insertion points use `<content>` takes stuff inside the shadow host and puts it into the shadow dom. Specific content can be selected with "select" attribute.
 
@@ -85,9 +90,11 @@ Browser support: chrome/mobile chrome, opera/opera mini.
 ### Custom Elements
 Templates + Shadow DOM = Custom elements
 
-    document.register('tag-name', {
-      prototype: proto
-    });
+``` javascript
+document.register('tag-name', {
+  prototype: proto
+});
+```
     
 #### Lifecycle Callbacks
 * `createdCallback()` Use like constructor
@@ -102,7 +109,9 @@ Ignore blog posts about `<element>` for now, right now only method for creating 
 #### Imports
 Imports load external documents into our page
 
-    <link rel="import" href="my-import.html">
+``` html
+<link rel="import" href="my-import.html">
+```
 
 Like CSS, just assume it's there and work.
 Browser support: Chrome with a flag

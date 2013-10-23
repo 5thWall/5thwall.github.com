@@ -39,10 +39,12 @@ How does it work?
 
 ### Simple Example
 
-    d3.select("body")
-      .append("svg")
-      .attr("height", height)
-      .attr("width", width);
+``` javascript
+d3.select("body")
+  .append("svg")
+  .attr("height", height)
+  .attr("width", width);
+```
 
 What about 3D?
 -------------------
