@@ -3,26 +3,31 @@ layout: note
 ---
 
 New Rules for Javascript
-===================
+========================
 
-* http://youdontknowjs.com
-* http://html5hub.com
+Kyle Simpson  
+[@getify][twitter]
 
-This code will "hurt your feelings"
+* [youdontknowjs.com][knowjs]
+* [html5hub.com][h5hub]
+
+This talk will "hurt your feelings"
 
 Javascript is not a dynamically typed language. Javascript does have types. Not type enforced.
 
 Values have types in javascript, variables do not. Values have types and they can not change, but variables can hold any value at any time.
 
-## Stop hating on `==` and implicit conversion.
-
+Stop hating on `==` and implicit conversion
+-------------------------------------------
 * `==` allows coercion
 * `===` disallows coercion
 
-## Never treat `null` and `undefined` differently
+Never treat `null` and `undefined` differently
+----------------------------------------------
 You'll be rewarded with simpler and possibly faster code
 
-## Stop using anonymous functions
+Stop using anonymous functions
+------------------------------
 
 ``` javascript
 function foo() { }
@@ -32,15 +37,16 @@ Bind gives us currying and closures. Named function expressions are always prefe
 
 Don't just assume the JS engine optimizes away all mistakes.
 
-## Stop abusing your scope
+Stop abusing your scope
+-----------------------
 Follow the principle of least exposure. Block scoping is coming and better than manually hosting variables.
 
-Let blocks can work now in ES3. http://gethub.com/getify/let-er
+Let blocks can work now in ES3. [getify/let-er][let-er]
 
 Start also using block scoping, "let is not the new var"
 
-## Stop using `this` until you really understand how it gets assigned
-
+Stop using `this` until you really understand how it gets assigned
+------------------------------------------------------------------
 1. Is the call-site new-invoked?
 2. Is the call-site binding overridden with call/apply?
 3. Is the call-site on an owned-object?
@@ -49,10 +55,15 @@ Start also using block scoping, "let is not the new var"
 `this` is only magical or confusing when you don't find the call-site.
 `var self = this` is often (but not always) missguided, you can often use `.bind(this)`
 
-## Stop using `new Something()` "constructors" to "instantiate" and "inherit" classes.
-
-Objects Linked to Other Objects
+Stop using `new Something()` "constructors" to "instantiate" and "inherit" classes
+----------------------------------------------------------------------------------
+Objects Linked to Other Objects  
 Class-oriented vs delegation-oriented
 
 ### Delegation-Oriented
 Just use objects.
+
+[twitter]: http://twitter.com/getify
+[knowjs]: http://youdontknowjs.com
+[h5hub]: http://html5hub.com
+[let-er]: http://gethub.com/getify/let-er

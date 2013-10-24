@@ -3,9 +3,10 @@ layout: note
 ---
 
 Web Components Revolution
-======================
+=========================
 
-2013/10/22 10:40 AM
+Rob Dodson  
+[@rob_dodson][twitter]
 
 * Web Components?
 * The Specs
@@ -37,7 +38,7 @@ Web components use the same tools that the browser makers use.
 ```
     
 What are Web Components?
----------------------------------
+------------------------
 
 **Templates:** Scaffolding  
 **Shadow Dom:** Encapsulation  
@@ -117,7 +118,7 @@ Like CSS, just assume it's there and work.
 Browser support: Chrome with a flag
 
 Use 'em Today
------------------
+-------------
 
 ### Polymer
 A collection of polyfills which let us use web components in all modern browsers.
@@ -125,12 +126,18 @@ Also a framework for building web applications with web components.
 Looks a lot like angular, from Google so maybe similar codebase? Probably work together
 
 Resources
-------------
+---------
+* [HTML5 Rocks][h5r]
+* [Polymer][poly]
+* [X-Tags][xtags]
+* [Brick][brick]
+* [customelements.io][custom]
+* [Chromium dashboard][chrome]
 
-* Web components resources
-* HTML5 Rocks
-* Polymer
-* X-Tags
-* Brick
-* customelements.io
-* chromium dashboard
+[twitter]: http://twitter.com/rod_dodson
+[h5r]: http://www.html5rocks.com/en/
+[poly]: http://www.polymer-project.org/
+[xtags]: http://x-tags.org/
+[brick]: http://mozilla.github.io/brick/
+[custom]: http://customelements.io
+[chrome]: http://www.chromestatus.com/features

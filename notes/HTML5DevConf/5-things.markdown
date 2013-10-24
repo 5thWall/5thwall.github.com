@@ -6,7 +6,7 @@ layout: note
 ==========================================
 
 Paul Trani, Creative Cloud Evangelist, Adobe  
-[@PaulTrani](http://twitter.com/PaulTrani)
+[@PaulTrani][twitter]
 
 Why it matters...
 -------------------
@@ -33,15 +33,14 @@ Sharp angles lead eyes outside of the rectangle. Rounded corners keep your eyes 
 > Use color to emphasize importance, not decorate a page
 -- Alexander White
 
-[Kuler](http://kuler.adobe.com "Color tool from Adobe")
+[Kuler][kuler]
 
 Know how to: Use Text & Typography
 -------------------------------------------
-
 * Chose a font that fits the subject.
 * Don't use more than three
 
-[TypeKit](http://typekit.com "Web fonts from Adobe")
+[TypeKit][tk]
 
 Serif for heading, san-serif for text?
 
@@ -52,11 +51,10 @@ Increase line-height to make page look more elegant.
 5 Get Feedback
 -------------------
 
-[Behance](http://www.behance.net "Feedback community for designers")
+[Behance][behance]
 
 Design Fundamentals
 ----------------------------
-
 1. You're not a designer (but you can fake it)
 2. Lead the eye with your layout
 3. Use color and imagery
@@ -65,3 +63,8 @@ Design Fundamentals
 
 6 Be Awesome
 -----------------
+
+[twitter]: http://twitter.com/PaulTrani
+[kuler]: http://kuler.adobe.com "Color tool from Adobe"
+[tk]: http://typekit.com "Web fonts from Adobe"
+[behance]: http://www.behance.net "Feedback community for designers"
