@@ -1,4 +1,5 @@
 name: Breaking the 5th Wall
 markdown: redcarpet
+exclude: [Gemfile, Gemfile.lock]
 pygments: true
 timezone: America/Phoenix
