@@ -51,21 +51,25 @@ a.readmore:link {
 }
 
 div#main nav {
-  flex: 0 0 12em;
+  flex: 0 0 20em;
   display: flex;
   flex-flow: column;
-  background: #eee;
-  border-radius: 4px;
-  padding: 1em;
+  padding: 0;
 }
 
 div#main nav h1 {
   text-align: center;
   flex: 0;
-  margin: 0 0 1.5em 0;
+  margin: 0;
 }
 
-ul#contact {
+div#contact {
+  background: #eee;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+div#contact ul {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
@@ -73,17 +77,17 @@ ul#contact {
   padding: 1em;
 }
 
-ul#contact li {
+div#contact li {
   flex: 1;
   text-align: center;
 }
 
-ul#contact li a {
+div#contact li a {
   text-decoration: none;
   color: #000;
 }
 
-ul#contact li a:visited {
+div#contact li a:visited {
   color: #000;
 }
 
