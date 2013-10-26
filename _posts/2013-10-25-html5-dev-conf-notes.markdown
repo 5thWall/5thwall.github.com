@@ -4,7 +4,7 @@ title: "HTML5 Dev Conf"
 date: 2013-10-25
 ---
 
-I'm just returning from my visit to San Francisco for the [HTML5 Developers Conferencee][H5DC], and decided to post my notes for the conference. I took notes for most, but not all, of the talks I went to. I'll try to post a followup in a few days talking about some of the other things I saw there.
+I'm just returning from my visit to San Francisco for the [HTML5 Developers Conferencee][h5dc], and decided to post my notes for the conference. I took notes for most, but not all, of the talks I went to. I'll try to post a followup in a few days talking about some of the other things I saw there.
 
 * [Web Components Revolution][wcr]: Web components are amazing. Lots of stuff I hope to be able to use in the near future.
 * [New Rules for JavaScript][nr4js]: I need to look up the slides for this talk since I'd like to review them. Lots of stuff about how tricks to mitigate the "bad" parts of Javascript are due to not fully understanding the language.
@@ -16,6 +16,7 @@ I'm just returning from my visit to San Francisco for the [HTML5 Developers Conf
 * [Launching the Goo Engine][goo]: The Goo Engine looks really cool, you should check it out. Beta launches November 1st.
 * [Concurency and Parallel Programming in JavaScript][concurency]: This was kind of a technical talk for the end of the day. Talked a bit about the present and future of concurent programming in JavaScript.
 
+[h5dc]: http://html5devconf.com
 [wcr]: /notes/HTML5DevConf/web-components-revolution.html
 [nr4js]: /notes/HTML5DevConf/new-rules-for-javascript.html
 [faf]: /notes/HTML5DevConf/federated-and-free.html
