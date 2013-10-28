@@ -10,6 +10,7 @@ Kyle Simpson
 
 * [youdontknowjs.com][knowjs]
 * [html5hub.com][h5hub]
+* [Slides][slides]
 
 This talk will "hurt your feelings"
 
@@ -66,4 +67,5 @@ Just use objects.
 [twitter]: http://twitter.com/getify
 [knowjs]: http://youdontknowjs.com
 [h5hub]: http://html5hub.com
+[slides]: https://speakerdeck.com/getify/new-rules-for-javascript
 [let-er]: http://gethub.com/getify/let-er
