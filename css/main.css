@@ -52,7 +52,7 @@ a.readmore:link {
 }
 
 div#main nav {
-  flex: 0 0 20em;
+  flex: 0 0 250px;
   display: flex;
   flex-flow: column;
   padding: 0;
