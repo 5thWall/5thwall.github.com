@@ -56,6 +56,7 @@ div#main nav {
   display: flex;
   flex-flow: column;
   padding: 0;
+  flex-direction: column;
 }
 
 div#main nav h1 {
@@ -68,7 +69,6 @@ div#contact {
   background: #eee;
   border-radius: 4px;
   padding: 1em;
-  width: 100%;
 }
 
 div#contact ul {
