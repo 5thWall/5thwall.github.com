@@ -2,6 +2,7 @@
 layout: post
 title: "HTML5 Dev Conf"
 date: 2013-10-25
+comments: true
 ---
 
 I'm just returning from my visit to San Francisco for the [HTML5 Developers Conferencee][h5dc], and decided to post my notes for the conference. I took notes for most, but not all, of the talks I went to. I'll try to post a followup in a few days talking about some of the other things I saw there.
