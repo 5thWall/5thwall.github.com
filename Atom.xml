@@ -5,25 +5,25 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>Your Website</title>
-  <link href="http://example.com/"/>
-  <link type="application/atom+xml" rel="self" href="http://example.com/atom.xml"/>
+  <link href="http://blog.the5thwall.net"/>
+  <link type="application/atom+xml" rel="self" href="http://blog.the5thwall.net/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://blog.the5thwall.net/</id>
   <author>
-    <name>Andrew Arminio</name>
+    <name>Andy Arminio</name>
     <email>5thWall@gmail.com</email>
   </author>
 
   {% for post in site.posts %}
   <entry>
     <id>http://blog.the5thwall.net/{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://example.com{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="http://blog.the5thwall.net/{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
-      <name>Your Name</name>
-      <uri>http://blog.the5thwall.net</uri>
+      <name>Andy Arminio</name>
+      <uri>http://blog.the5thwall.net/</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
